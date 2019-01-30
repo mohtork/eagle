@@ -13,8 +13,8 @@
 2. pip install -r requirements.txt
 
 # Eagle in action
-- Set your slack credentials from main.yaml file<br/>
-- Set your rules from yaml files inside rules directory<br/>
+- Set your slack credentials in main.yaml file<br/>
+- Set your rules in yaml files inside rules directory<br/>
 - Add eagle to the running crons<br/>
 "* * * * *" cd /path-to/eagle/ && python eagle.py > /tmp/eagle.log 2>&1
 
