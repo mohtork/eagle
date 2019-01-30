@@ -1,0 +1,26 @@
+# Disk Usage
+disks:
+  root: '/'
+  #boot: '/boot'
+
+# CPU Alerts Values & Intervals Type 1:last minute, 5:5 minutes, 15:15 minutes
+cpu:
+  cpu_avg_interval: 5
+  normal: 5
+  warning: 10
+  critical: 20
+
+# Alerts Values for Memory % Usage
+memory:
+  warning: 70
+  critical: 90
+
+# Alerts Values for Swap % Usage
+swap:
+  warning: 80
+  critical: 90
+
+# Alerts Values for Disks % Usage
+disk:
+  warning: 70
+  critical: 90

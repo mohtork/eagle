@@ -1,0 +1,12 @@
+# This is the folder that contains the rule yaml files
+# Any .yaml file will be loaded as a rule
+rules_folder: rules
+
+
+#Slack
+slack_id: ''
+slack_channel: ''
+slack_username: 'eagle'
+
+#Modules
+
